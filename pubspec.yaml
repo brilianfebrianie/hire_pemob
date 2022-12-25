@@ -1,0 +1,56 @@
+name: build_hire_app
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  carousel_slider: ^4.1.1
+  cloud_firestore: ^3.5.0
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^3.11.2
+  firebase_core: ^1.24.0
+  firebase_storage: ^11.0.9
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.1.1
+  flutter_signin_button: ^2.0.0
+  getwidget: ^3.0.1
+  notification_permissions: ^0.6.1
+  permission_handler: ^10.0.2
+  provider: ^6.0.3
+  shared_preferences: ^2.0.15
+  simple_gradient_text: ^1.2.4
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/background/
+    - assets/images/placeholder/
+    - assets/images/placeholder/onboarding_carousel/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Thin.ttf
+        - asset: assets/fonts/Montserrat-Light.ttf
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+        - asset: assets/fonts/Montserrat-Black.ttf
+
+    - family: Barlow
+      fonts:
+        - asset: assets/fonts/Barlow-Bold.ttf
